@@ -14,7 +14,7 @@
  * limitations under the License.
  * =============================================================================
  */
-const LEARNING_RATE = 0.001;
+const LEARNING_RATE = 0.00001;
 const OPTIMIZER = tf.train.sgd(LEARNING_RATE);
 var slider = document.getElementById("epoch");
 var output = document.getElementById("test");
